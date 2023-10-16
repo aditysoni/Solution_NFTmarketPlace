@@ -1,0 +1,240 @@
+.top
+{
+    width: 100%;
+    height: 70px;
+    /* background: rgb(98, 25, 215);
+    background: linear-gradient(90deg, rgb(92, 17, 211) 0%, rgba(209,202,250,1) 100%); */
+    position :fixed ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+    /* margin-top: 10px ; */
+   background: black ;
+    color: rgb(10, 3, 32);
+}
+
+.topCenter
+{
+    justify-content: flex-end;
+    align-items: end;
+   
+    /* margin:2px  */
+    display: flex;
+    flex-direction: row;
+}
+
+.topList
+{
+    display: flex;
+    margin-top: 10px;
+    margin: 30px;
+    /* padding-left: 30px; */
+
+}
+.topListItem:hover{
+    background-color: rgb(154, 95, 230);
+}
+button{
+    /* margin:30px; */
+}
+.topListItem
+{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgb(200, 200, 232) ;
+    padding: 10px;
+    font-weight: 600;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.wrapper
+
+{
+    margin-top: 90px;
+    display: flex ;
+    flex-direction: column ;
+    background:transparent;
+    height: 100% ;
+    width : 100%;
+    /* border-radius: 30px; */
+    padding:2px;
+    /* margin:50px ; */
+   /* height:100% ; */
+}
+
+
+.wrapper-content
+{ 
+
+  display: flex;
+  flex-direction: row ;
+  margin-top:0x ;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main
+{  
+  /* margin-top: 30px; */
+   
+    display: flex ;
+    flex-direction: column;
+   height:100% ;
+   justify-content: center; 
+   align-items: center;
+   background: rgb(0,210,255);
+   background: linear-gradient(90deg, rgba(0,210,255,1) 0%, rgba(58,123,213,1) 100%);
+}
+img{
+    height:800px ;
+    width:900px ;
+}
+
+
+.top-left
+{
+    flex:4 ;
+}
+.top-right
+{
+    flex :4 ;
+    /* margin-top: 150px; */
+     display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+.signbu
+{   
+    margin-top:30px ;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    background: rgb(7, 7, 111);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.signbu:hover 
+{
+    background-color: blue;
+    color: #e8e8e8;
+}
+
+.para{
+    margin-top: 30px;
+    font-size: 40px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40 ;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.title
+{
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+
+  font-family: cursive;
+  color:rgb(2, 2, 114);
+}
+.input-box 
+{
+    height:fit-content ;
+    width :fit-content ;
+    padding: 15px; 
+    margin: 15px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.input-info
+{font-size: 15px;}
+
+.input-image
+{
+    font-size: 20px;
+    margin: 10px; padding-left: 30px;
+    
+}
+
+.button-create
+{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(45, 11, 77);
+    color: aliceblue;
+    margin: 20px;
+}
+
+.create-nft-main
+{
+    background-color: rgb(160, 181, 241);
+}
+
+.wrapper-bottom 
+{
+    margin-top: 40px;
+    display: flex ;
+    flex-direction: column ;
+    background:transparent;
+    height: 100% ;
+    width : 100%;
+    /* border-radius: 30px; */
+    padding:2px;
+    /* margin:50px ; */
+   /* height:100% ; */
+}
+.wrapper-content-bottom
+{
+    display: flex;
+    flex-direction: row ;
+    margin-top:0x ;
+    justify-content: center;
+    /* align-items: center; */
+}
+.top-right-bottom
+{
+    flex :4 ;
+    margin-top: 150px;
+    
+     display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+.title-bottom
+{
+    font-size: 60px;
+    font-weight: 700;
+}
